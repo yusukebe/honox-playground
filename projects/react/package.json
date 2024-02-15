@@ -1,5 +1,5 @@
 {
-  "name": "rpc",
+  "name": "react",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,15 +9,18 @@
   },
   "private": true,
   "dependencies": {
-    "@hono/zod-validator": "^0.1.11",
+    "@hono/react-renderer": "^0.0.2",
     "hono": "^4.0.2",
     "honox": "^0.1.1",
-    "zod": "^3.22.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@hono/vite-cloudflare-pages": "^0.2.3",
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "@hono/vite-cloudflare-pages": "^0.2.4",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
     "vite": "^5.0.12",
     "wrangler": "^3.27.0"
-  },
-  "packageManager": "yarn@4.0.2"
+  }
 }
