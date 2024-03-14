@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --mode client && vite build",
+    "build": "vite build",
     "preview": "wrangler pages dev ./dist"
   },
   "private": true,
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240208.0",
+    "@hono/vite-cloudflare-pages": "^0.2.5",
     "vite": "^5.1.6",
     "wrangler": "^3.34.1"
   }
