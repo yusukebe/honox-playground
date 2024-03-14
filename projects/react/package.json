@@ -10,17 +10,17 @@
   "private": true,
   "dependencies": {
     "@hono/react-renderer": "^0.0.2",
-    "hono": "^4.0.6",
-    "honox": "^0.1.5",
+    "hono": "^4.1.0",
+    "honox": "^0.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240208.0",
-    "@hono/vite-cloudflare-pages": "^0.2.4",
+    "@hono/vite-cloudflare-pages": "^0.2.5",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
-    "vite": "^5.0.12",
-    "wrangler": "^3.28.4"
+    "vite": "^5.1.6",
+    "wrangler": "^3.34.1"
   }
 }
