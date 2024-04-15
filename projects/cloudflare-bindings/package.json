@@ -8,8 +8,8 @@
   },
   "private": true,
   "dependencies": {
-    "hono": "^4.1.0",
-    "honox": "^0.1.8"
+    "hono": "^4.2.4",
+    "honox": "^0.1.13"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240208.0",

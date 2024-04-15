@@ -9,8 +9,8 @@
   },
   "private": true,
   "dependencies": {
-    "hono": "^4.1.0",
-    "honox": "^0.1.8"
+    "hono": "^4.2.4",
+    "honox": "^0.1.13"
   },
   "devDependencies": {
     "@hono/vite-cloudflare-pages": "^0.2.5",

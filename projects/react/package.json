@@ -10,8 +10,8 @@
   "private": true,
   "dependencies": {
     "@hono/react-renderer": "^0.0.2",
-    "hono": "^4.1.0",
-    "honox": "^0.1.8",
+    "hono": "^4.2.4",
+    "honox": "^0.1.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
